@@ -3,16 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css" >
+
 </head>
-<body>
-    <p>Busqueda <input type="text" name="" id="busqueda"></p>
-    <ul id="datos">
-    </ul>
-    <input type="button" value="<<" id="atras">
-    <input type="button" value=">>" id="adelante">
-    <input type="button" value="Clean" id="clear" onclick="">
+<body class="bg-dark">
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+              
+              </div>
+              
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark text-white box-shadow">
+          <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+              <strong>Por Alexis Campos</strong>
+            </a>
+            
+          </div>
+        </div>
+      </header>
+
+
+    <section class="jumbotron text-center bg-dark">
+        <div class="container">
+          <h1 class="jumbotron-heading text-light ">Busqueda por ajax</h1>
+            <p>          
+      
+            
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Busqueda</span>
+                </div>
+                <input type="text"  id="busqueda" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+         
+
+
+            <ul class="list-group" id="datos">
+                
+              </ul>
+              <br>
+            <button type="button" class="btn btn-outline-secondary text-light " id="atras"><<</button>
+            <button type="button" class="btn btn-outline-secondary text-light " id="adelante">>></button>
+            <button type="button" class="btn btn-outline-secondary text-light " id="limpiar">Limpiar</button>
+            
+      
+        
+
+
+          </p>
+        </div>
+      </section>
+
+
 
     <script
     src="https://code.jquery.com/jquery-3.5.0.js"
@@ -20,5 +69,7 @@
     crossorigin="anonymous">
     </script>
     <script src="app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
