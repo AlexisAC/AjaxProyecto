@@ -95,4 +95,9 @@ $(document).ready(function () {
         }
         $('#datos').html(final);
     })
+    $('#atras').click(function () {
+        var final = "";
+        $('#busqueda').val('');
+        $('#datos').html(final);
+    })
 });
